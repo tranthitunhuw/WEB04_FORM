@@ -1,0 +1,9 @@
+function KiemTra()
+{
+	var ht= f.HoTen.value;
+	var dt= f.DienThoai.value;
+	var e= f.Email.value;
+	var dc= f.DiaChi.value;
+	
+	
+}

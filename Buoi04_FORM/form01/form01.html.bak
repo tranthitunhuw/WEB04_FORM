@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>FORM 01</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="form01.css">
+	<script src="form01.js"></script>
+	<!-- Chèn liên kết tập tin CSS vào đây -->
+	<!-- Chèn liên kết các tập tin JavaScripts vào đây -->
+</head>
+
+<body>
+	<form action="https://fit.agu.edu.vn/demo.php" method="GET">
+		<table border="1" width="300" align="center">
+			<tr>
+				<th colspan="2">THÔNG TIN ĐĂNG NHẬP</th>
+			</tr>
+			<tr>
+				<td>Tên đăng nhập:</td>
+				<td><input type="text" name="TenDangNhap" id="TenDangNhap"></td>
+			</tr>
+			<tr>
+				<td> Mật khẩu:</td>
+				<td><input type="password" name="MatKhau" id ="MatKhau"</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<button onclick="return KiemTra()">Đăng nhập</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+
+</html>
